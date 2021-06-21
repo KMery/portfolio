@@ -14,3 +14,14 @@
 .contact-icon:hover {
     width: 100px;
 }
+
+@media only screen and (max-width: 480px) {
+    .contact-icon {
+        width: 30px;
+        max-width: 50px;
+    }
+
+    .contact-icon:hover {
+        width: 50px;
+    }
+}

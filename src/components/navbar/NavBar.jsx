@@ -5,7 +5,9 @@ export const NavBar = () => {
     return (
         <div>
             <Navbar bg="dark" variant="dark" fixed="top">
-                <Navbar.Brand href="#aboutMe">Mayra Leiva</Navbar.Brand>
+                <Navbar.Brand href="#aboutMe">
+                    AboutMe
+                </Navbar.Brand>
                 <Nav className="mr-auto">
                     <Nav.Link href="#skill">Skills</Nav.Link>
                     <Nav.Link href="#project">Projects</Nav.Link>

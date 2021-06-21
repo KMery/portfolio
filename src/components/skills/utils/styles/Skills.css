@@ -25,3 +25,12 @@
 .skill-icon:hover {
     transform: rotate(10deg);
 }
+
+@media only screen and (max-width: 480px) {
+    .skill-icon {
+        max-width: 50px;
+        margin: 30px 10px 50px 0px;
+        flex: 1 0 21%; 
+        transition: transform 1s;
+    }   
+}
