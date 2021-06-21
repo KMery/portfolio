@@ -10,12 +10,6 @@ html, .bg-color {
     margin-bottom: 50px;
 }
 
-
-.evently {
-    display: flex;
-    justify-content: space-evenly
-}
-
 .bg-custom, html {
     margin: 0;
     padding: 0;
