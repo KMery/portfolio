@@ -1,0 +1,27 @@
+#skill {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0px 30px 0px;
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px 30px 0px;
+}
+
+.skill-icon {
+    max-width: 150px;
+    margin: 30px 10px 50px 0px;
+    flex: 1 0 21%; 
+    transition: transform 1s;
+}
+
+.skill-icon:hover {
+    transform: rotate(10deg);
+}
