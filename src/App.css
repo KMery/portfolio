@@ -4,10 +4,16 @@ html, .bg-color {
 
 .container {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     margin-bottom: 50px;
+}
+
+
+.evently {
+    display: flex;
+    justify-content: space-evenly
 }
 
 .bg-custom, html {

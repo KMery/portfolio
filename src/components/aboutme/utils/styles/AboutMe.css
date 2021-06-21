@@ -83,4 +83,9 @@
         width: 80%;
         margin-top: 30px;
     }
+
+    .cv-button:hover {
+        width: 200px;
+        font-size: 20px;
+    }
   }
